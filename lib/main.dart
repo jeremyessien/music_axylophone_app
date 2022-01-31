@@ -17,8 +17,6 @@ class XylophoneApp extends StatelessWidget {
         },
         child: Container(
           color: color,
-          height: 40.0,
-          width: 200.0,
         ),
       ),
     );
