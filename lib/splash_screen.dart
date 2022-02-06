@@ -22,15 +22,17 @@ class _SplashScreenState extends State<SplashScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.lightBlueAccent.shade100,
-      body: Container(
-          decoration: BoxDecoration(
-              borderRadius: BorderRadius.all(Radius.circular(20))),
-              child: Center(
-                child: Text(
-            "Xylophone",
-            style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold, color: Colors.white),
-          ),
-              )),
+      body: Expanded(
+        child: Container(
+            decoration: BoxDecoration(
+                borderRadius: BorderRadius.all(Radius.circular(20))),
+                child: Center(
+                  child: Text(
+              "Xylophone",
+              style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold, color: Colors.indigo),
+            ),
+                )),
+      ),
     );
   }
 }
